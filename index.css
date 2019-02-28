@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  width: 400px;
+  height: 350px;
+  /* border:1px solid #999; */
+  margin: 70px auto;
+}
+.title {
+  width: 100%;
+  height: 30px;
+  background: rgb(78, 193, 228);
+  text-align: center;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+/* 聊天窗口 */
+.wrapper .title span {
+  font-size: 16px;
+  color: white;
+  line-height: 30px;
+}
+/* 最下，面的外层 */
+.wrapper .botten {
+  margin-top: 10px;
+  width: 400px;
+}
+/* 输入框 */
+.wrapper .botten #inp {
+  width: 335px;
+  height: 30px;
+  padding-left: 5px;
+  outline:none;
+}
+/* 按钮 */
+.wrapper .botten #btn {
+  width: 50px;
+  height: 30px;
+}
+/* 最大层的边框 */
+.wrapper .content{
+    width:398px;
+    height:280px;
+    border: 1px solid #666;
+}
+/* 聊天窗口的界面 */
+.wrapper .content .position{
+  /* width: 378px;*/
+  height: 200px;
+  overflow: auto;
+  padding: 0 10px;
+}
+/* 人工输入汉字的渲染 */
+.mine_talk .text {                        
+  font-size: 14px;
+  padding: 5px;
+  border-radius: 10px;
+  color: #666;
+  background-color: aquamarine;
+  float:right;
+}
+.mine_talk .headportrait{
+  width:30px;
+  height:30px;
+  background-image: url(./image/u=1578402525\,1592799921&fm=26&gp=0.jpg);
+  background-size: 100% 100%;
+  border-radius: 15px;
+  float: right;
+  margin-left:10px;
+}
+/* 机器人回复汉字的渲染 */
+.rabit_talk .text {
+  font-size: 14px;
+  padding: 5px;
+  border-radius: 10px;
+  color: #666;
+  background-color: skyblue;
+  float:left;
+  /* margin-top:10px; */
+}
+
+.mine_talk .avitor-mine {
+  padding-bottom: 20px;
+  width: 100%;
+}
+.rabit_talk .avitor-mine {
+    /* padding: 15px 0; */
+    width: 100%;
+}
